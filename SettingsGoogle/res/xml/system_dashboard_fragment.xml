@@ -7,7 +7,7 @@
 
     <Preference
         android:fragment="com.android.settings.language.LanguageAndInputSettings"
-        android:icon="@drawable/ic_settings_language"
+        android:icon="@drawable/settings_language_custom"
         android:key="language_input_settings"
         android:order="-260"
         android:title="@string/language_settings"
@@ -15,7 +15,7 @@
 
     <Preference
         android:fragment="com.android.settings.gestures.GestureSettings"
-        android:icon="@drawable/ic_settings_gestures"
+        android:icon="@drawable/settings_gestures_custom"
         android:key="gesture_settings"
         android:order="-250"
         android:title="@string/gesture_preference_title"
@@ -25,7 +25,7 @@
     <Preference
         android:key="button_settings"
         android:title="@string/button_pref_title"
-        android:icon="@drawable/ic_button_settings"
+        android:icon="@drawable/button_settings_custom"
         android:order="-249"
         android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
 
@@ -33,20 +33,20 @@
     <Preference
         android:key="statusbar_settings"
         android:title="@string/status_bar_title"
-        android:icon="@drawable/ic_settings_statusbar"
+        android:icon="@drawable/settings_statusbar_custom"
         android:order="-248"
         android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />
 
     <Preference
         android:fragment="com.android.settings.datetime.DateTimeSettings"
-        android:icon="@drawable/ic_settings_date_time"
+        android:icon="@drawable/settings_date_time_custom"
         android:key="date_time_settings"
         android:order="-240"
         android:title="@string/date_and_time"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController" />
 
     <com.google.android.settings.aware.AwareSettingsDialogPreference
-        android:icon="@drawable/ic_aware"
+        android:icon="@drawable/aware_custom"
         android:key="aware_settings"
         android:order="-230"
         android:title="@string/aware_settings_title"
@@ -67,7 +67,7 @@
     </Preference>
 
     <Preference
-        android:icon="@drawable/ic_system_update"
+        android:icon="@drawable/system_update_custom"
         android:key="system_update_settings"
         android:order="-58"
         android:summary="@string/summary_placeholder"
@@ -82,7 +82,7 @@
 
     <Preference
         android:fragment="com.android.settings.system.ResetDashboardFragment"
-        android:icon="@drawable/ic_restore"
+        android:icon="@drawable/restore_custom"
         android:key="reset_dashboard"
         android:order="-30"
         android:title="@string/reset_dashboard_title"
